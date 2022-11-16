@@ -1,0 +1,44 @@
+Aplikasi Toko Gembul Motor dengan PHP Native dan MySQL
+
+<---------------------------------------------------------------------------->
+Info :
+CRUD pada Admin sukses, CRUD pada Staff masih pengembangan lebih lanjut.
+pada Menu Transaksi masih dalam pengembangan.
+
+<---------------------------------------------------------------------------->
+=============    Folder    =============
+Folder /assets berisi file aset seperti css, js dan img.
+Folder /Config berisi koneksi ke database MySQL.
+Folder /db berisi query/file sql beserta record.
+Folder /plugins berisi aset framework/template AdminLTE v3(Bootstrap).
+Folder /view berisi file tampilan pada web
+
+
+<---------------------------------------------------------------------------->
+!!!!!!!!!!    PENTING    !!!!!!!!!!
+Langkah Import tabel harus sesuai urutan berikut :
+1. buat database "db_penjualan"
+2. Import datbase "db_penjualan.sql"
+
+
+<---------------------------------------------------------------------------->
+=============    Koneksi PHP >< MySQL    =============
+Koneksi ke database :
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db = "db_penjualan";
+
+!! user dan pass tentukan sesuai user & pass database masing-masing !!
+
+
+<---------------------------------------------------------------------------->
+Login Admin :
+Username = Ivan
+Password = Deryl123
+
+
+<---------------------------------------------------------------------------->
+Login Staff :
+Username = staff
+Password = staff123
